@@ -9,7 +9,7 @@ from pages.main_page import AuthPage
 
 @allure.feature("AUTHORIZATION PAGE")
 @allure.title('Test with Login Field')
-@allure.label('owner', 'Levkin.A')
+@allure.label('owner', 'Golik.A')
 @allure.severity(allure.severity_level.CRITICAL)
 @pytest.mark.parametrize("games", [("Play for funGates of Olympus", "#casino-game-game_544816-544816 iframe")],
                          ids=["Play for funGates of Olympus"])
