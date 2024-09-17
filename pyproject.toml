@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "test-task"
+version = "0.1.0"
+description = ""
+authors = ["AlexanderLevkin <levkin.a@promail366.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+playwright = "^1.40.0"
+pytest = "^7.4.3"
+selenium = "^4.15.2"
+webdriver-manager = "^4.0.1"
+logger = "^1.4"
+loguru = "^0.7.2"
+allure-pytest = "^2.13.5"
+pytest-playwright = "^0.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
